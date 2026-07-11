@@ -1,0 +1,13 @@
+class ModelProduct {
+  final String name;
+  final int price;
+  final String image;
+  final String subscribe;
+
+  ModelProduct({
+    required this.name,
+    required this.price,
+    required this.image,
+    required this.subscribe,
+  });
+}
